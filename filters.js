@@ -45,6 +45,4 @@ angular.module ( 'filters', [] )
       text =  text.replace ( /\?\?(\s)/g, '?" ' );
       return text;
     }
-  })
-
-;
+  });
